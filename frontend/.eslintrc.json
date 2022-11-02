@@ -14,9 +14,13 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "import",
+    "prettier"
   ],
+  "root": true,
   "rules": {
+    "react/jsx-closing-bracket-location": [ 1, "after-props" ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
       1,
